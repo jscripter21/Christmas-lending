@@ -1,0 +1,141 @@
+@import 'vars';
+@import 'global';
+body {
+    height: auto;
+}
+
+.wrapper {
+    background-image: url(../img/bg/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+#snow-animation-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.header_logo {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.logo_container {
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.logo img {
+    max-width: 100%;
+    width: 255px;
+}
+
+.girl {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.girl_snow {
+    width: 1144px;
+    margin-left: 100px;
+}
+
+.bufer-box {
+    display: flex;
+    color: #FF9C28;
+    font-family: Montserrat;
+    font-size: 24.475px;
+    font-weight: 700;
+    line-height: 21.651px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 28%;
+    transform: translate(-55%, -50%);
+    align-items: center;
+}
+
+.text-promo {
+    width: 102px;
+}
+
+.promo-code {
+    color: #FFF;
+    font-size: 56.482px;
+}
+
+.icons-btn {
+    background-image: url(../img/icons/icons-btn.svg);
+    background-repeat: no-repeat;
+    width: 35.772px;
+    height: 38.596px;
+    margin-left: 6px;
+    transition: transform 0.5s;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.btn_img_snow {
+    display: flex;
+    justify-content: center;
+}
+
+.btn_img_snow a {
+    animation: pulse 2s infinite;
+    position: absolute;
+    top: 80px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.footer__icons {
+    max-width: 780px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.footer__icons-item img {
+    width: 110px;
+}
+
+.footer_copyright {
+    color: #FFF;
+    max-width: 780px;
+    margin-top: 15px;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+
+@import 'media';

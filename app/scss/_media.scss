@@ -1,0 +1,124 @@
+@media screen and(max-width: 1024px) {
+    .girl_snow {
+        width: 1105px;
+        margin-left: 250px;
+    }
+    .bufer-box {
+        transform: translate(-45%, -50%);
+    }
+    .footer__icons,
+    .footer_copyright {
+        transition: all 0.5s ease;
+        width: 700px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .girl_snow {
+        width: 980px;
+        margin-left: 230px;
+    }
+    .bufer-box {
+        transform: translate(-30%, -50%);
+    }
+    .btn_img_snow a {
+        right: -155px;
+    }
+    .footer__icons,
+    .footer_copyright {
+        transition: all 0.5s ease;
+        width: 600px;
+        margin: 0 auto;
+    }
+    .main {
+        margin-bottom: 95px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .girl_snow {
+        width: 800px;
+        margin-left: 200px;
+    }
+    .promo-code {
+        font-size: 40px;
+    }
+    .bufer-box {
+        transform: translate(-30%, -5%);
+    }
+    .footer__icons,
+    .footer_copyright {
+        transition: all 0.5s ease;
+        width: 500px;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 580px) {
+    .girl_snow {
+        width: 700px;
+        margin-left: 150px;
+    }
+    .promo-code {
+        font-size: 30px;
+    }
+    .bufer-box {
+        transform: translate(-30%, 10%);
+    }
+    .btn_img_snow a {
+        right: -125px;
+    }
+    .btn_img {
+        width: 350px;
+    }
+    .footer__icons,
+    .footer_copyright {
+        width: 330px;
+        font-size: 9px;
+    }
+}
+
+@media(max-width: 490px) {
+    .girl_snow {
+        width: 600px;
+        margin-left: 150px;
+    }
+    .bufer-box {
+        font-size: 20px;
+    }
+    .bufer-box {
+        transform: translate(-5%, 50%);
+    }
+    .btn_img_snow a {
+        right: -55px;
+    }
+}
+
+@media(max-width: 410px) {
+    .girl_snow {
+        width: 550px;
+        margin-left: 130px;
+    }
+}
+
+@media(max-width: 375px) {
+    .girl_snow {
+        width: 480px;
+        margin-left: 110px;
+    }
+    .bufer-box {
+        font-size: 20px;
+    }
+    .btn_img {
+        width: 300px;
+    }
+    .btn_img_snow a {
+        right: -25px;
+    }
+    .footer__icons,
+    .footer_copyright {
+        width: 280px;
+        font-size: 9px;
+    }
+}
